@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>HTML FORMS</h1>
+    <form action="save.php">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name"> <br>
+        <label for="email">Email</label>
+        <input type="Email" name="email" id="email"> <br>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password"> <br>
+        <label for="address">Address</label>
+        <textarea readOnly cols="80" name="address" id="address">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio quos eligendi est aspernatur, 
+sapiente provident consequuntur unde, ea rem laborum praesentium ex deserunt ducimus veniam eos officia, deleniti ipsam optio.
+        </textarea><br>
+        <input type="submit" value="login" name="submit" id="submit">
+        <button>Click</button> <br>
+        <label for="CS">CS</label><input type="checkbox" value="coputer science" name="CS" id="CS">
+        <label for="SE">SE</label><input checked type="checkbox" value="software enginering" name="Se" id="SE">
+        <label for="IT">IT</label><input type="checkbox" value="information technology" name="IT" id="IT">
+        <label for="IOT">IOT</label><input type="checkbox" value="system engineering" name="IOT" id="IOT">
+        <br>
+        <label for="male">Male</label> <input  type="radio" name="gender" id="male" value="M">
+        <label for="female">Female</label> <input type="radio" name="gender" id="female" value="F">
+        <label for="other">Other</label> <input type="radio" name="gender" id="other" value="O">
+        <br>
+        <select >
+            <option disabled selected>Select Option....</option>
+            <optgroup label="Technology">
+            <option value="cs">Cs</option>
+            <option value="se">Se</option>
+            <option value="IT">IT</option>
+            <option value="Iot"> IoT</option>
+            </optgroup>
+        </select>
+    </form>
+</body>
+</html>
